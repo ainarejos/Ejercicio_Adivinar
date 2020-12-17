@@ -5,12 +5,12 @@ public class Parte2_Bandera {
         Boolean salir = false;
         Scanner sc = new Scanner(System.in);
         int[] valores=new int[5];
-        int contador=1;
+        int contador=0;
         int adivinar=(int)(Math.random()*99+0);
         System.out.println("Intenta adivinar el numero entre el 0 y 99 que estoy pensando: ");
         int valor = sc.nextInt();
         while (!salir){
-            if ((valor==adivinar)||(contador==5)){
+            if ((valor==adivinar)||(contador==4)){
                 salir=true; //activa bandera cuando la condicion se cumple que es 5
             }else {
                 //tractament del programa
