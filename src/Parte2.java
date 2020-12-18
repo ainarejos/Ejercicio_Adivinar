@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+//*Esto fue una primera prueba sin usar el metodo de la bandera, porfabor ignorar, ver la parte3_Bandera.
 public class Parte2 {
     public static void main(String[] args) {
         boolean acertar=false;

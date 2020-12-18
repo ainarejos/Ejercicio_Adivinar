@@ -22,7 +22,7 @@ public class Parte3 {
         //Comienza el juego
         while (moneda==1&&admin==false&&monedero>0){
             int adivinar=(int)(Math.random()*99+0);
-            System.out.println(adivinar);
+            //System.out.println(adivinar);
             Boolean salir = false;
             System.out.println("Intenta adivinar el numero entre el 0 y 99 que estoy pensando: ");
             int valor = sc.nextInt();
@@ -69,5 +69,6 @@ public class Parte3 {
             }
         }
         System.out.println("El saldo de la maquina es: " + monedero);
+        System.out.println("Han acertado: " + ganados + " veces");
     }
 }

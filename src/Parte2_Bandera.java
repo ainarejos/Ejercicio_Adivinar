@@ -7,6 +7,7 @@ public class Parte2_Bandera {
         int adivinar=(int)(Math.random()*99+0);
         int[] valores=new int[5];
         int contador=0;
+        //System.out.println(adivinar);
         System.out.println("Intenta adivinar el numero entre el 0 y 99 que estoy pensando: ");
         int valor = sc.nextInt();
         while (!salir){
@@ -15,6 +16,7 @@ public class Parte2_Bandera {
             }else { ;
                 //tractament del programa
                 adivinar=(int)(Math.random()*99+0);
+                //System.out.println(adivinar);
                 if (adivinar>valor){
                     System.out.println("El valor introducido es incorrecto, el valor a adivinar es mas grande: ");
                     valores[contador]=valor;
